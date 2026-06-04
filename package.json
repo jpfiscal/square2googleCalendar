@@ -1,0 +1,28 @@
+{
+  "name": "square2googlecalendar",
+  "version": "1.0.0",
+  "description": "Repeatable process that creates google calendar events based on square accounts appointments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpfiscal/square2googleCalendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpfiscal/square2googleCalendar/issues"
+  },
+  "homepage": "https://github.com/jpfiscal/square2googleCalendar#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
